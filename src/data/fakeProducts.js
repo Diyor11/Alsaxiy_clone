@@ -1,0 +1,100 @@
+import createID from '../utils/createID'
+
+let Img = 'https://assets.asaxiy.uz/product/main_image/desktop//613364d9ccd91.jpg.webp'
+let Img2 = 'https://assets.asaxiy.uz/product/main_image/desktop//6220a914dad87.jpg.webp'
+
+const fakeProducts = [
+    {
+        id: 1,
+        img: Img,
+        title: 'Футболка YOKI "Akang talaba uje" Black',
+        rate: 5,
+        reviews: 1,
+        price: 500000,
+        perMonth: '13900 сум / 12 мес',
+        skit: false,
+    },
+    {
+        id: 2,
+        img: Img2,
+        title: 'Футболка YOKI "Akang talaba uje" Black',
+        rate: 2,
+        reviews: 1,
+        price: 110000,
+        perMonth: '13900 сум / 12 мес',
+        skit: false,
+    },
+    {
+        id: 3,
+        img: Img,
+        title: 'Футболка YOKI "Akang talaba uje" Black',
+        rate: 1,
+        reviews: 1,
+        price: 119000,
+        perMonth: '13900 сум / 12 мес',
+        skit: false,
+    },
+    {
+        id: 4,
+        img: Img2,
+        title: 'Футболка YOKI "Akang talaba uje" Black',
+        rate: 2,
+        reviews: 1,
+        price: 119000,
+        perMonth: '13900 сум / 12 мес',
+        skit: false,
+    },
+    {
+        id: 5,
+        img: Img,
+        title: 'Футболка YOKI "Akang talaba uje" Black',
+        rate: 4,
+        reviews: 1,
+        price: 119000,
+        perMonth: '13900 сум / 12 мес',
+        skit: false,
+    },
+    {
+        id: 6,
+        img: Img2,
+        title: 'Футболка YOKI "Akang talaba uje" Black',
+        rate: 4,
+        reviews: 10,
+        price: 119000,
+        perMonth: '13900 сум / 12 мес',
+        skit: false,
+    },
+    {
+        id: 7,
+        img: Img,
+        title: 'Футболка YOKI "Akang talaba uje" Black',
+        rate: 4,
+        reviews: 19,
+        price: 200000,
+        perMonth: '20000 сум / 12 мес',
+        skit: false,
+    },
+    {
+        id: 8,
+        img: Img2,
+        title: 'Футболка YOKI "Akang talaba uje" Black',
+        rate: 5,
+        reviews: 1,
+        price: 300000,
+        perMonth: '12500 сум / 12 мес',
+        skit: false,
+    },
+    {
+        id: 9,
+        img: Img,
+        title: 'Футболка YOKI "Akang talaba uje" Black',
+        rate: 2,
+        reviews: 3,
+        price: 115000,
+        perMonth: '13900 сум / 12 мес',
+        skit: true,
+        oldPrice: '150 000 сум'
+    },
+]
+
+export default fakeProducts

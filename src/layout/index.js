@@ -10,6 +10,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 
 import GlobalStyles, {Container} from '../globalStyles'
+import { MainEl } from './layout.styles'
 
 export default function Layout({children}) {
   return (
@@ -17,11 +18,11 @@ export default function Layout({children}) {
       <ThemeProvider theme={theme}>
         <Router>
             <Header />
-            <main>
+            <MainEl>
               <Container>
                 {children}
               </Container>
-            </main>
+            </MainEl>
             <Footer />
             <GlobalStyles />
         </Router>
